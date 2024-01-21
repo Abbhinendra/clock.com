@@ -236,6 +236,6 @@ nav ul select option{
     padding: 12px 12px 12px 12px;
     background-color:rgb(54, 54, 212);
   }
-.min{
-    min-height:20vh;
+#min{
+    min-height:18vh;
 }
