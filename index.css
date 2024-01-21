@@ -238,4 +238,7 @@ nav ul select option{
   }
 #min{
     min-height:18vh;
+    position:absulate;
+    bottom:0;
+    width:100%;
 }
