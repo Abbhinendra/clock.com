@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color:rgb(4, 4, 67);
+}
+nav{
+    top: 0;
+    position: sticky;
+    padding: 12px 12px 12px 12px;
+    display: flex;
+    color: white;
+    background-color: rgb(6, 6, 85);
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 16px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li,label,select,option{
+    cursor: pointer;
+}
+
+nav ul select{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(6, 6, 85);
+    margin: 0 12px;
+}
+nav ul select option{
+    color: white;
+    cursor: pointer;
+}
+.container-time{
+    margin: 2%;
+}
+.container-time span{
+    font-size: 26px;
+    font-weight: 800;
+    color:white;
+    text-align: center;
+}
+#time{
+    transition:all 2s ease-in;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid rgb(54, 54, 212);
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+}
+.container-cahnge{
+    width: 240px;
+    height: 200px;
+    font-size: 26px;
+    font-weight: 800;
+    color:white;
+    border: 1px solid rgb(130, 128, 128);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition:all 2s ease-in;
+}
+
+#named{
+    padding: 6px 6px 6px 6px;
+    border: 1px solid rgb(54, 54, 212);
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    transition:all 2s ease-in;
+}
+.colorChnage{
+    padding: 6px 6px 6px 6px;
+    border: 1px solid rgb(54, 54, 212);
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    transition:all 2s ease-in;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main .container-cahnge{
+    margin: 8px 8px;
+}
+#line{
+    margin-top: 2%;
+    height:1px;
+    background-color:rgb(54, 54, 212);
+    border-radius: 16px;
+}
+@media screen and (max-width: 436px){
+    #select label{
+     display: none;
+    }
+}
+.alarm-content .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px 12px 12px 12px;
+}
+
+.alarm-content .box input{
+    margin: 0 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 2px 2px 2px 2px;
+    background-color:rgb(33, 33, 168);
+    border-radius: 6px;
+    outline:2px solid rgb(54, 54, 212);
+    border: none;
+}
+.alarm-content .box span{
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+}
+
+.stopalarmandSlectAlarm{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    color: white;
+    padding: 6px 6px 6px 6px;
+}
+
+.stopalarmandSlectAlarm span label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.stopalarmandSlectAlarm select{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color:white;
+    background-color:rgb(54, 54, 212);
+    margin: 0 12px;
+}
+.stopalarmandSlectAlarm button{
+    cursor: pointer;
+    border: none;
+    outline: 1px solid rgb(54, 54, 212);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 4px 4px 4px 4px;
+    background-color:rgb(9, 9, 133);
+    color: white;
+}
+
+#stopAlarm{
+    display: none;
+}
+
+@media only screen and (max-width: 660px) {
+    .alarm-content .box{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alarm-content .box input{
+     margin-top: 2%;
+    }
+    .stopalarmandSlectAlarm span{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    #stopAlarm{
+        margin-top: 2%;
+    }
+    #leted{
+        margin-top: 4%;
+    }
+    #tune{
+        margin-top: 4%;
+    }
+  }
+
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 16px;
+    background-color: rgb(68, 68, 145);
+  }
+
+  footer span{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px 12px 12px;
+    background-color:rgb(54, 54, 212);
+  }

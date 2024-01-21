@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.2BlNZCbPBsEiv0xIVpdmvwHaHa?rs=1&pid=ImgDetMain" />
+    <title>World Clock</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                Home
+            </li>
+            <li id="select">
+                <label for="">Select Country</label>
+                <select name="" id="sl">
+                    <option value="Asia/Kolkata">Kolkata</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-time">
+        <div class="main">
+    <div class="container-cahnge">
+    <span id="named" class="colorChnage">Kolkata</span>
+    <br>
+    <span id="time" class="colorChnage">
+    </span>
+    </div>
+    <div class="container-cahnge">
+        <span id="namedIndia" class="colorChnage">India</span>
+        <br>
+        <span id="timeIndia" class="colorChnage">
+        </span>
+        </div>
+        </div>
+    </div>
+    <div id="line"></div>
+    <br>
+    <div class="alarm-container">
+        <h2 style="text-align:left; margin-left: 32.90%;  font-size: 26px; font-weight: 800; color: white;">Set an Alarm.</h2>
+        <div class="alarm-content">
+            <div class="box">
+                <span>Select a time for your Alarm.</span>  <input type="time" id="alarm">
+            </div>
+            <div class="stopalarmandSlectAlarm">
+                <span>
+                  <label for="" style="margin: 0 6px; padding:4px 4px 4px 4px; border-radius: 6px; cursor: pointer; background-color:rgb(156, 85, 85); transition: background 2s ease-in; border: none; outline: 1px solid rgb(41, 41, 137); cursor: pointer;" id="loopAlarm">Loop Your Alarm Tune</label>  <label value="" id="leted">Select Your Alarm Tune</label>
+                <select name="" id="tune">
+                    
+                </select>
+                </span>
+                <button id="stopAlarm">Stop Alarm</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer id="footer">
+        
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
