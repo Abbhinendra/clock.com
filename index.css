@@ -235,10 +235,7 @@ nav ul select option{
     align-items: center;
     padding: 12px 12px 12px 12px;
     background-color:rgb(54, 54, 212);
-    position:absolute;
-    bottom:0;
-    width:100%;
   }
-#min{
-    min-height:60vh;
-}
+  .minheight{
+    min-height: 60vh;
+  }
